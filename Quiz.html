@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="home-container">
+        <h1>Welcome to the Quiz!</h1>
+        <button id="start-btn" class="start-btn btn">Start Quiz</button>
+        <div>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+            <p>Need to register? <a href="register.html">Register</a></p>
+        </div>
+    </div>
+
+    <div id="quiz-container" style="display:none;">
+        <div id="question-container">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-container"></div>
+        </div>
+        <button id="next-btn" class="next-btn btn">Next</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
